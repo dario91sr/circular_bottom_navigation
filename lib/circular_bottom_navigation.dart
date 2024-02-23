@@ -42,7 +42,7 @@ class CircularBottomNavigation extends StatefulWidget {
     this.animationDuration = const Duration(milliseconds: 300),
     this.selectedCallback,
     this.controller,
-    this.allowSelectedIconCallback = false,
+    this.allowSelectedIconCallback = true,
     backgroundBoxShadow,
   })  : backgroundBoxShadow = backgroundBoxShadow ??
             [BoxShadow(color: Colors.grey, blurRadius: 2.0)],
